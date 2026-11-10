@@ -55,7 +55,6 @@ FEHMotor leftMotor(FEHMotor::Motor1, 9.0);
 /*
 * Prototypes for all methods.
 */
-//int calculateMomentumCounts(float p);
 void ResetCounts();
 void calibrate();
 void moveArm(int d);
@@ -68,12 +67,9 @@ int check_x(float p, float x);
 int check_y(float p, float y);
 void pressDDRButton();
 void goToDDRLight();
-void goToRampFromStart();
 void goUpRamp();
 void goToCoin();
 void goToFoosball();
-void goToLeverFromCoin();
-void goToRPSY(float p);
 void flipLever();
 void moveFoos();
 void loadMenu();
